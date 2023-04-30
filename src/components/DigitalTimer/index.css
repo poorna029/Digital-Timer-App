@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2% 2%;
+  align-items: center;
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  height: 100vh;
+  border-radius: 10px;
+}
+.first {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 30vw;
+  background-size: cover;
+  background-position: center;
+}
+.col-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 25%;
+}
+.inner {
+  background-color: white;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 9vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: auto 0px;
+  margin: auto 0px;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonImageSize {
+  width: 30px;
+  height: 30px;
+}
+.buttonPara {
+  padding: auto 0px;
+  margin: auto 0px;
+  margin-bottom: 10px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+}
+.lastsection {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.limit {
+  background-color: #00d9f5;
+  width: 100px;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.symbol {
+  font-size: 30px;
+  margin: 0px 10px;
+}
+.field {
+  width: 100%;
+}
+.col-1 {
+  text-align: center;
+}
